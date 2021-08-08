@@ -1,0 +1,14 @@
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  svg {
+    width: 300px;
+    height: 300px;
+    transition: 0.4s;
+    &:hover {
+      fill: green;
+    }
+  }
+}

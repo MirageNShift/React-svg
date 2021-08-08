@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      color: #3f51b5;
+    }
+  }
+  .svg {
+    height: 300px;
+    width: 300px;
+    svg {
+      transition: 0.4s;
+      &:hover {
+        fill: red;
+      }
+    }
+  }
+}
